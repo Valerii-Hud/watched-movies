@@ -22,7 +22,7 @@ function rememberMyFilms() {
   const questionItems = 2;
   let i = 0;
   do {
-    const questionOne = prompt('One of the last seen movie?', '');
+    const questionOne = prompt('One of the last seen movie?', '').trim();
     const questionTwo = prompt('How did you rate this movie?', '');
 
     if (
